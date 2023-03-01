@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #5cb4a4;
+}
+#principal{
+    color: white;
+    font-family: Impact;
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #277567, rgba(0, 0, 0, 0.623));
+    margin: 0px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.712);
+}
+header > h1{
+    padding: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+}
+nav{
+    text-align: left;
+    padding: 30px 0px 5px 10px;
+}
+a{
+    text-decoration: none;
+    color: #277567;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+a::after{
+    content: '\01F517';
+}
+nav > a::after{
+    content: none;
+}
+nav > a{
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+}
+main{
+    background-color: whitesmoke;
+    min-width: 320px;
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+main > p{
+    text-align: justify;
+    padding: 10px 25px;
+    text-indent: 30px;
+}
+h1{
+    padding: 20px 20px;
+}
+h1,h2{
+    font-family: idroid;
+    text-align: left;
+    color: #277567;
+}
+h2{
+    background-image: linear-gradient(to right,#3cb59f7e ,whitesmoke);
+    padding: 5px 20px;
+}
+h3{
+    background-color: #277567;
+    color: white;
+    padding-left: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+div > p{
+    padding: 10px 10px;
+    text-indent: 30px;
+}
+iframe{
+    height: 400px;
+    width: 800px;
+}
+.video{
+    background-color: #277567;
+    text-align: center;
+    padding: 10px 25px
+}
+.coluna{
+    display: inline-block;
+    text-align: left;
+    padding: 10px 50px;
+    width: 30%;
+}
+.destaque{
+    color: #277567;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: #277567;
+    color: white;
+    padding: 5px;
+}
+#fim{
+    padding-bottom: 30px;
+}
+#extra{
+    display: inline-block;
+    text-align: justify;
+    padding-bottom: 15px;
+    background-color: #7dcfc0;
+    width: 700px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.712);
+}
+abbr{
+    text-decoration: none;
+}
+
